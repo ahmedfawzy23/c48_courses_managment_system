@@ -1,0 +1,8 @@
+PHPMailer\PHPMailer\Exception: SMTP Error: Could not authenticate. in C:\xampp\htdocs\c48\oopProject\vendor\phpmailer\phpmailer\src\PHPMailer.php:2444
+Stack trace:
+#0 C:\xampp\htdocs\c48\oopProject\vendor\phpmailer\phpmailer\src\PHPMailer.php(2235): PHPMailer\PHPMailer\PHPMailer->smtpConnect(Array)
+#1 C:\xampp\htdocs\c48\oopProject\vendor\phpmailer\phpmailer\src\PHPMailer.php(1855): PHPMailer\PHPMailer\PHPMailer->smtpSend('Date: Wed, 7 Oc...', '--b1=_yb5UWlx5D...')
+#2 C:\xampp\htdocs\c48\oopProject\vendor\phpmailer\phpmailer\src\PHPMailer.php(1670): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 C:\xampp\htdocs\c48\oopProject\classes\Mails\EnrollMail.php(40): PHPMailer\PHPMailer\PHPMailer->send()
+#4 C:\xampp\htdocs\c48\oopProject\handlers\enrollments\create.php(28): Classes\Mails\EnrollMail->sendMail(Object(stdClass))
+#5 {main}
